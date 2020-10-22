@@ -6,3 +6,8 @@
  pin as well. I am going to connect to digital pin 8. The next pin is SCK which goes
  to digital pin 13 of the Arduino Uno. The next pin is MOSI which goes to digital pin 11 
  and the last pin in MISO which goes to digital pin 12.
+
+
+Warning:
+you have to connect it to the 3.3v of the arduino
+do not connect it to 5v
