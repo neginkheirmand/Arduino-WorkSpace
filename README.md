@@ -24,5 +24,6 @@ If you -like me- use the  ATmega328P CH340G Soldered based on Arduino Nano you'l
 
 [Driver download for Mac OS X 10.9+](https://github.com/neginkheirmand/Arduino-WorkSpace/raw/master/CH340G%20driver/OSX10.9_CH34xV1.3.zip)
 
-**Pinout**
+**Pinout:**
+
 ![](https://github.com/neginkheirmand/Arduino-WorkSpace/blob/master/Arduino-Nano-Pinout-1.png?raw=true)
