@@ -27,3 +27,7 @@ If you -like me- use the  ATmega328P CH340G Soldered based on Arduino Nano you'l
 **Pinout:**
 
 ![](https://github.com/neginkheirmand/Arduino-WorkSpace/blob/master/Arduino-Nano-Pinout-1.png?raw=true)
+
+**Modules:**
+- NRF24L01 
+
