@@ -1,3 +1,13 @@
 works with 3.3 v and SPI interface.
 lib :
 https://github.com/miguelbalboa/rfid.git
+The card has integrated 8192 bits EEPROM which is split into 16 sectors with 4 blocks. One block consist of 16 bytes.
+the first blocks of the memory are reserved for manufacturer data like 32 bit serial number, these are read-only blocks. 
+
+notes(in the code)
+	PCD:  Proximity Coupling Reader( Reader Module- the rfid card reader-)
+	PICC: Proximity Integrated Cricuit Chip(Card Target)`
+
+	functions:
+		.PICC_HaltA()  end communication with the card
+	
