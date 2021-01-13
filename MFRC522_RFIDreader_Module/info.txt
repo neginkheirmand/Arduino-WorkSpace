@@ -1,1 +1,3 @@
 works with 3.3 v and SPI interface.
+lib :
+https://github.com/miguelbalboa/rfid.git
