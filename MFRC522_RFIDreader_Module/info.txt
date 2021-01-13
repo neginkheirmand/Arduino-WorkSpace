@@ -1,0 +1,1 @@
+works with 3.3 v and SPI interface.
