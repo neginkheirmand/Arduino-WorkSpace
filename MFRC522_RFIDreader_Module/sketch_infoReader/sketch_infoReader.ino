@@ -31,7 +31,7 @@ void setup() {
     // using FFFFFFFFFFFFh which is the default at chip delivery from the factory
     //if you have changed your card keys, you want to change the value of variable key to your specific key
     for (byte i = 0; i < 6; i++) {
-        key.keyByte[i] = 0xEE;
+        key.keyByte[i] = 0xFF;
     }
     Serial.print(F("Using key (for A and B):"));
     dump_byte_array(key.keyByte, MFRC522::MF_KEY_SIZE);
