@@ -24,6 +24,7 @@ void setup() {
   Serial.begin(9600);     // initialize the comunicacion for monitor serie at 9600 bps
   SPI.begin();        // initialize SPI bus 
   mfrc522.PCD_Init();     // initialize the Module
+  Serial.print("Program Runing");
 }
 
 void loop() {
